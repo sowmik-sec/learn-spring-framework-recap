@@ -2,10 +2,10 @@ package com.sowmik.learnspringframeworkrecap.game;
 
 public class GameRunner {
     //private MarioGame game;
-    private SuperContraGame game;
+    private GamingConsole game;
 
-    public GameRunner(SuperContraGame marioGame) {
-        this.game = marioGame;
+    public GameRunner(GamingConsole game) {
+        this.game = game;
     }
     public void run() {
         System.out.println("Running game: " + game);
